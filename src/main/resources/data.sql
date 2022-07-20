@@ -4,9 +4,11 @@ INTO
   (user_Name)
 VALUES
   ('Laura');
-INSERT
+
+
+  INSERT
 INTO
   products
   (name, img, price, seller_id)
 VALUES
-  ('Caja de Pandora', 'img.jpg', 255.5, 1);
+  ('Bici Roja', 'https://www.clootbike.com/images/products/bicicletas-de-paseo-relax-roja.jpg', 600, 1);
