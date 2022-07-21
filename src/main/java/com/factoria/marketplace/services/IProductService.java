@@ -13,6 +13,6 @@ public interface IProductService {
     Product create(ProductRequestDto productDto, User authUser);
 
 
-
+    Product findById(Long id);
 }
 

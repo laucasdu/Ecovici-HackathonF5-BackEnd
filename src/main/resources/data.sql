@@ -1,9 +1,11 @@
+
 INSERT
 INTO
   users
-  (user_Name)
+  (user_Name, user_Img)
 VALUES
-  ('Laura');
+  ('Gala', 'https://ps.w.org/simple-user-avatar/assets/icon-256x256.png?rev=2413146');
+
 
 
   INSERT
