@@ -23,11 +23,9 @@ With this application is intended to help the environment trying to offer a prod
 
 ## IU DESIGN
 
-![ECOVICI_MACKBOOK_HOME](https://user-images.githubusercontent.com/102957525/182260633-7f7da724-8661-4002-93eb-9f146010f033.jpg)
+![ECOVICI](https://user-images.githubusercontent.com/102957525/186539263-a3087d4a-842a-4e99-8f87-706f331e7acd.jpg)
 
-![ECOVICI_MACKBOOK_DETAIL](https://user-images.githubusercontent.com/102957525/182260629-620d3ea6-e247-4019-bd09-019cba8a936c.jpg)
-
-![ECOVICI_MACKBOOK_COMPRA](https://user-images.githubusercontent.com/102957525/182260621-3f8097ca-d659-45e1-a502-2af989049ec6.jpg)
+![ECOVICI_TEST](https://user-images.githubusercontent.com/102957525/186539278-43a9dcdd-5a7b-4258-af64-f1b830725345.jpg)
 
 
 ## TECHNOLOGIES & TOOLS
