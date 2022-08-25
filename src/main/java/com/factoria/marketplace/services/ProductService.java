@@ -22,15 +22,6 @@ public class ProductService implements IProductService {
         return productRepository.findAll();
     }
 
-    @Override
-    public Product create(ProductRequestDto productDto, User authUser) {
-        var product = new Product();
-        product.setName(productDto.getName());
-        product.setImg(productDto.getImg());
-        product.setPrice(productDto.getPrice());
-        product.setSeller(authUser);
-        return productRepository.save(product);
-    }
 
     @Override
     public Product findById(Long id) {

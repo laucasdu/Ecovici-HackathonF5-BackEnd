@@ -21,5 +21,4 @@ public class Product {
     @JoinColumn(name = "seller_id")
     private User seller;
 
-
 }

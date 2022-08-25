@@ -25,25 +25,14 @@ public class ProductController {
 
     @GetMapping("/products")
     List<Product> getAll() {
-
         return productService.getAll();
     }
-
-    @PostMapping ("/products")
-    Product create(@RequestBody ProductRequestDto productRequest){
-        var authUser = getAuthUser();
-        return productService.create(productRequest, authUser);
-    }
-
-    private User getAuthUser() {
-        return userService.getById(1L);
-    }
-
 
     @GetMapping("/products/{id}")
     Product getById(@PathVariable Long id) {
         return productService.findById(id);
     }
+
 
 
 }

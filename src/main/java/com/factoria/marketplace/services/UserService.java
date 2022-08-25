@@ -10,7 +10,6 @@ public class UserService implements IUserService {
     private IUserRepository userRepository;
 
     public UserService(IUserRepository userRepository) {
-
         this.userRepository = userRepository;
     }
 
